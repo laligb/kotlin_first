@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/gradeTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Grade:"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#CD853F"/>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/resultTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Result:"-->
+<!--        android:textSize="18sp"/>-->
+        <TextView
+            android:id="@+id/myCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textSize="300px"
+            android:textColor="#45FAF0"
+            />
+
+
+
+</LinearLayout>
