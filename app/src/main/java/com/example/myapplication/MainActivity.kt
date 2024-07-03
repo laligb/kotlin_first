@@ -141,8 +141,12 @@ private fun saludar(name: String) : String{
 }
 
 private fun crearUsuari(){
-    var nomUsuari = Usuari("admin", "123456", 1)
+    var nomUsuari = Usuari("admin", "123456", Usuari.Rol.ADMINISTRADOR)
+    var nomUsuari1 = Usuari("Anna",  "451654", Usuari.Rol.ACTIU, arrayOf(nomUsuari))
     println("User: " + nomUsuari.usuari)
-    nomUsuari.rol = 2
+    nomUsuari.rol = Usuari.Rol.PENDENT
     println("User rol: " + nomUsuari.rol)
+
+    nomUsuari.presentarse()
+    nomUsuari1.presentarse()
 }
